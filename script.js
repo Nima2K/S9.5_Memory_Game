@@ -6,7 +6,7 @@ let startScreen = document.querySelector("#start-screen");
 let restartButtonSelect = document.querySelector("#button-restart");
 let bodySelect = document.querySelector("body");
 let randomColorText = document.querySelectorAll(".random-color-text span");
-
+// note
 let scoreLeaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
 
 let numOfTries = 0;
